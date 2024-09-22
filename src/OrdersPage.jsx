@@ -8,7 +8,7 @@ const OrdersPage = () => {
   return (
     <div className="container">
       <div className="d-flex justify-content-around m-4">
-        <h2>Total cash back points gained from your orders: {"   "} 790</h2>
+        <h2>Total cash back points gained from your orders: {"   "} Rs.790</h2>
         <Button variant="danger">Click to Redeem</Button>
       </div>
       <Card className="mw-70 m-5 card--box-shadow card--light">
