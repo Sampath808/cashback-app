@@ -1,0 +1,36 @@
+.card--box-shadow {
+  box-shadow: 0 13px 27px -5px rgba(93, 93, 144, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 3%);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.order-card {
+  max-width: auto;
+}
+
+.navbar {
+  color: #a27e8e;
+}
+
+.nav-item {
+  color: #a27e8e;
+}
+
+.coupon-card {
+  min-width: 300px;
+  min-height: 300px;
+  width: fit-content;
+  margin-bottom: 0;
+  border-radius: 7px;
+  padding-top: 7px;
+  padding: 10px;
+  text-align: center;
+}
+
+.coupon-container {
+  max-width: fit-content;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
